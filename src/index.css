@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.todo-item {
+  display: flex;
+  border: 1px dashed #999;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  background: #80eec5;
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-left: 10px;
+  min-height: 20px;
+  outline: none;
+  overflow: hidden;
+  word-break: break-word;
+}
