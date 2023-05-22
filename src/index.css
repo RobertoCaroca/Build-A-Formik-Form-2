@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.todo-item.completed {
+  text-decoration: line-through;
+  background: #80eec5;
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-left: 10px;
+  min-height: 20px;
+  outline: none;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-item-row {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item-row .form-check-input {
+  margin-right: 10px;
+}
+
+.todo-label {
+  flex-grow: 1;
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+.todo-actions {
+  display: flex;
+}
+
+.todo-actions button {
+  margin-right: 5px;
+}
